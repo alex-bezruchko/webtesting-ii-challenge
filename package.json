@@ -1,4 +1,4 @@
- {
+{
   "name": "webtesting-ii-challenge",
   "version": "1.0.0",
   "description": "Web Testing II Challenge Project",
@@ -19,13 +19,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^2.1.8",
+    "react-testing-library": "^6.1.2"
   },
   "devDependencies": {},
   "eslintConfig": {
