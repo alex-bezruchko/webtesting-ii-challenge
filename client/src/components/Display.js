@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Display = props => {
-    console.log(props)
     return(
         <div className="page-header">
             <h2>Display</h2>
