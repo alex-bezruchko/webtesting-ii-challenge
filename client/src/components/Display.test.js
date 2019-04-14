@@ -14,13 +14,5 @@ describe('The Display Component', () => {
         getByText(/Display/);
     })
 
-    it('the display should contain number of Hits ', () => {
-        const batter = {
-            hit: 1,
-            foul: 0,
-            strikes:0,
-        }
-        const { getByText } = render(<Display hit={batter.hit}/>)
-        getByText(/1/);
-    })
+    
 })
