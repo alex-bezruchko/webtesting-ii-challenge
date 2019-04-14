@@ -12,15 +12,5 @@ describe('The Dashboard Component', () => {
         ReactDom.unmountComponentAtNode(div);
     });
 
-    // it("correctly updates balls after the click event", () => {
-    //     const ballsAfterClick = "1";
     
-    //     const { getByTestId, getByText } = render(<Dashboard />);
-    //     const button = getByText("ball");
-    //     fireEvent.click(button);
-    
-    //     const ballCount = getByTestId("ball-count").textContent;
-    
-    //     expect(ballCount).toBe(ballsAfterClick);
-    // });
 })
