@@ -1,0 +1,41 @@
+{
+  "name": "webtesting-ii-challenge",
+  "version": "1.0.0",
+  "description": "Web Testing II Challenge Project",
+  "author": "Lambda School",
+  "homepage": "https://github.com/LambdaSchool/webtesting-ii-challenge#readme",
+  "keywords": [
+    "testing",
+    "lambda"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/webtesting-ii-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/webtesting-ii-challenge/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.8",
+    "react-testing-library": "^6.1.2"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
